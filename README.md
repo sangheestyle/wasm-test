@@ -42,7 +42,10 @@ This will compile and run the Rust program, which loads the WebAssembly module a
 If everything is set up correctly, you should see output similar to:
 
 ```
-WebAssembly file read successfully. Size: [size] bytes
+% cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.13s
+     Running `target/debug/wasm-celsius-converter`
+WebAssembly file read successfully. Size: 144 bytes
 WebAssembly module compiled successfully
 WebAssembly module instantiated successfully
 5 + 37 = 42
