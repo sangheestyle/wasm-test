@@ -1,0 +1,3 @@
+celsius-converter/node_modules
+celsius-converter/build
+wasm-celsius-converter/target/
